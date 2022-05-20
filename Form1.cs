@@ -23,9 +23,9 @@ namespace slutprojekt
 
             for (int i = 0; i < Bitmap.Width; i++)
             {
-                for (int i = 0; i < Bitmap.Height; i++)
+                for (int y = 0; y < Bitmap.Height; y++)
                 {
-                    Bitmap.SetPixel(1, j, Color.White);
+                    Bitmap.SetPixel(i, y, Color.White);
                 }
             }
         }
